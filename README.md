@@ -1,9 +1,7 @@
 # cot-dbviewstructure
 # DB Structure Viewer для Cotonti Siena
-cot-dbviewstructure
-DB Structure Viewer for Cotonti Siena
 
-Cotonti PHP MySQL License Version
+**[Releases](https://github.com/webitproff/cot-dbviewstructure/releases)**
 
 Plugins to view the database structure and export in formats: JSON, SQL, CSV, PHP Array.
 
