@@ -91,7 +91,7 @@ DB Structure Viewer — это административный плагин д�
 
 ## Установка
 
-1. Скачайте архив с [GitHub Releases](https://github.com/webitproff/cot-dbviewstructure/)
+1. Скачайте архив с [GitHub **DB Structure Viewer для Cotonti Siena**](https://github.com/webitproff/cot-dbviewstructure/)
 2. Распакуйте архив и папку `dbviewstructure` закачайте в папку `plugins`
 3. Зайдите в **Админка → Плагины → Установить → dbviewstructure**
 4. Настройте:
