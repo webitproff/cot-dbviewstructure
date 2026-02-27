@@ -3,9 +3,9 @@
  * DB Structure Viewer plugin for Cotonti Siena v.0.9.26, PHP 8.4+, MySQL 8.0+
  * Filename: dbviewstructure.functions.php
  * Purpose: Core database functions
- * Date: 2025-11-01
+ * Date: Feb 27Th, 2026
  * @package dbviewstructure
- * @version 2.0.0
+ * @version 2.0.1
  * @author webitproff
  * @copyright Copyright (c) webitproff 2025 https://github.com/webitproff/cot-dbviewstructure
  * @license BSD
@@ -244,7 +244,28 @@ function dbview_export_tables_full($tables, $format)
             case 'json':
                 $content = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
                 break;
-            case 'csv':
+			case 'csv':
+				$content = '';
+				foreach ($data as $table => $info) {
+					if (empty($info['data'])) continue;
+
+					// Заголовки БЕЗ имени таблицы
+					$headers = array_map(fn($f) => $f['name'], $info['fields']);
+					$content .= '"' . implode('","', $headers) . "\"\n";
+
+					foreach ($info['data'] as $row) {
+						$row_csv = array_map(
+							fn($v) => str_replace('"', '""', $v ?? ''),
+							array_values($row) // гарантируем порядок без ключей
+						);
+						$content .= '"' . implode('","', $row_csv) . "\"\n";
+					}
+
+					$content .= "\n";
+				}
+				break;
+/*
+	       case 'csv':
                 $content = '';
                 foreach ($data as $table => $info) {
                     if (empty($info['data'])) continue;
@@ -256,7 +277,9 @@ function dbview_export_tables_full($tables, $format)
                     }
                     $content .= "\n";
                 }
-                break;
+                break; 
+				
+*/
             case 'sql':
                 $content = "-- DB Export (Full)\n-- Date: " . cot_date('Y-m-d H:i:s', Cot::$sys['now']) . "\n\n";
                 foreach ($data as $table => $info) {
@@ -287,4 +310,5 @@ function dbview_export_tables_full($tables, $format)
         cot_log("DBViewStructure: Full export error: " . $e->getMessage(), 'plug');
         return false;
     }
+
 }
