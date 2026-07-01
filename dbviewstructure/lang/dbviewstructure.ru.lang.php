@@ -1,13 +1,17 @@
 <?php
 /**
- * DB Structure Viewer plugin for Cotonti Siena v.0.9.26, PHP 8.4+, MySQL 8.0+
- * Filename: dbviewstructure.ru.lang.php
+ * DB Structure Viewer plugin for Cotonti v.1+, PHP 8.4+, MySQL 8.0+
+ * Filename: plugins/dbviewstructure/lang/dbviewstructure.ru.lang.php
  * Purpose: Russian localization
- * Date: 2025-11-01
+ * Date: 01 July 2026 
+ * 
+ * Source: https://github.com/webitproff/cot-dbviewstructure
+ * Page in Cotonti Marketplace: https://abuyfile.com/ru/market/cotonti/plugs/cot-plug-db-view-structure
+ * 
  * @package dbviewstructure
- * @version 2.0.0
+ * @version 3.0.0
  * @author webitproff
- * @copyright Copyright (c) webitproff 2025
+ * @copyright Copyright (c) webitproff 2026 https://github.com/webitproff
  * @license BSD
  */
 defined('COT_CODE') or die('Wrong URL.');
@@ -24,7 +28,7 @@ $L['cfg_pack_to_zip_hint'] = 'Файлы в папке export/ будут зап
 
 $L['info_name'] = 'DB Structure Viewer';
 $L['info_desc'] = 'Просмотр и экспорт структуры таблиц БД';
-$L['info_notes'] = 'Файлы хранить в <code>plugins/dbviewstructure/export/</code>. На папку <strong>export</strong> установить права 755. PHP 8.4+, MySQL 8.0+, Cotonti Siena v.0.9.26';
+$L['info_notes'] = 'Файлы хранить в <code>plugins/dbviewstructure/export/</code>. На папку <strong>export</strong> установить права 755. PHP 8.4+, MySQL 8.0+, Cotonti v.1+';
 $L['dbviewstructure_title'] = 'DB Structure Viewer';
 $L['dbviewstructure_tab_structure'] = 'Структура';
 $L['dbviewstructure_tab_export'] = 'Экспорт';
@@ -71,3 +75,19 @@ $L['dbviewstructure_download_file'] = 'Скачать файл экспорта'
 $L['dbviewstructure_php_warning_only'] = 'PHP Array — только для структуры или 10 строк';
 $L['dbviewstructure_view_tables_fields'] = 'Таблицы и Поля';
 $L['dbviewstructure_view_table_rows'] = 'Просмотр строк';
+
+$L['dbviewstructure_clear_logs'] = 'Очистить все логи';
+$L['dbviewstructure_file_missing'] = 'Файл отсутствует на сервере';
+
+$L['dbviewstructure_clear_fields'] = 'Очистить поля';
+$L['dbviewstructure_tab_combined'] = 'Комбинированный CSV';
+$L['dbviewstructure_combined_title'] = 'Комбинированный экспорт в CSV';
+$L['dbviewstructure_combined_desc'] = 'Сконструируйте CSV-файл: добавьте колонки, выберите таблицы и поля. Базовая таблица определяет количество строк.';
+$L['dbviewstructure_base_table'] = 'Базовая таблица (строки)';
+$L['dbviewstructure_add_column'] = 'Добавить колонку';
+$L['dbviewstructure_csv_col_name'] = 'Название колонки в CSV';
+$L['dbviewstructure_select_field'] = '— Выберите поле —';
+$L['dbviewstructure_aggregate_none'] = 'Без агрегации';
+$L['dbviewstructure_aggregate_first_image'] = 'Первая картинка (MIN)';
+$L['dbviewstructure_aggregate_rest_images'] = 'Остальные картинки (через запятую)';
+$L['dbviewstructure_aggregate_all_images'] = 'Все картинки (через запятую)';
