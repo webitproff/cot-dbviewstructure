@@ -3,8 +3,8 @@
 # DB Structure Viewer for Cotonti Siena
 ### Full New "combined data export from multiple related tables"
 
-[![Version](https://img.shields.io/badge/version-2.1.0-green.svg)](https://github.com/webitproff/cot-dbviewstructure/releases)
-[![Cotonti Compatibility](https://img.shields.io/badge/Cotonti_Siena-0.9.26-orange.svg)](https://github.com/Cotonti/Cotonti)
+[![Version](https://img.shields.io/badge/version-3.0.0-green.svg)](https://github.com/webitproff/cot-dbviewstructure/releases)
+[![Cotonti Compatibility](https://img.shields.io/badge/Cotonti-v.1+-orange.svg)](https://github.com/Cotonti/Cotonti)
 [![PHP](https://img.shields.io/badge/PHP-8.4-purple.svg)](https://www.php.net/releases/8_4_0.php)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-blue.svg)](https://www.mysql.com/)
 [![Bootstrap v5.3.8](https://img.shields.io/badge/Bootstrap-v5.3.8-blueviolet.svg)](https://getbootstrap.com/)
@@ -230,8 +230,8 @@ ___
 # cot-dbviewstructure
 # DB Structure Viewer для Cotonti Siena
 
-[![Version](https://img.shields.io/badge/version-2.1.0-green.svg)](https://github.com/webitproff/cot-dbviewstructure/releases)
-[![Cotonti Compatibility](https://img.shields.io/badge/Cotonti_Siena-0.9.26-orange.svg)](https://github.com/Cotonti/Cotonti)
+[![Version](https://img.shields.io/badge/version-3.0.0-green.svg)](https://github.com/webitproff/cot-dbviewstructure/releases)
+[![Cotonti Compatibility](https://img.shields.io/badge/Cotonti-v.1+-orange.svg)](https://github.com/Cotonti/Cotonti)
 [![PHP](https://img.shields.io/badge/PHP-8.4-purple.svg)](https://www.php.net/releases/8_4_0.php)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-blue.svg)](https://www.mysql.com/)
 [![Bootstrap v5.3.8](https://img.shields.io/badge/Bootstrap-v5.3.8-blueviolet.svg)](https://getbootstrap.com/)
@@ -239,7 +239,8 @@ ___
 
 ## **[Releases here!](https://github.com/webitproff/cot-dbviewstructure/releases)**
 
-![att_771](https://github.com/user-attachments/assets/16b45242-1f10-4890-b030-61a233636d69)
+
+<img width="1200" height="800" alt="combined data export from multiple related tables" src="https://github.com/user-attachments/assets/5615d8b7-587a-4f20-841a-7efb4841ed0f" />
 
 **Официальная страница плагина в маркетплейсе:**  
 [https://abuyfile.com/ru/market/cotonti/plugs/cot-plug-db-view-structure](https://abuyfile.com/ru/market/cotonti/plugs/cot-plug-db-view-structure)
