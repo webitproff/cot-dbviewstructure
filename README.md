@@ -12,7 +12,8 @@
 
 ## **[Releases here!](https://github.com/webitproff/cot-dbviewstructure/releases)**
 
-![att_771](https://github.com/user-attachments/assets/16b45242-1f10-4890-b030-61a233636d69)
+
+<img width="1200" height="800" alt="combined data export from multiple related tables" src="https://github.com/user-attachments/assets/5615d8b7-587a-4f20-841a-7efb4841ed0f" />
 
 **Official marketplace page:**  
 [https://abuyfile.com/ru/market/cotonti/plugs/cot-plug-db-view-structure](https://abuyfile.com/ru/market/cotonti/plugs/cot-plug-db-view-structure)
