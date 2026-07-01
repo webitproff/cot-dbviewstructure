@@ -241,8 +241,8 @@ ___
 
 
 <img width="1200" height="800" alt="combined data export from multiple related tables" src="https://github.com/user-attachments/assets/5615d8b7-587a-4f20-841a-7efb4841ed0f" />
-**Официальная страница плагина в маркетплейсе:**  
-[https://abuyfile.com/ru/market/cotonti/plugs/cot-plug-db-view-structure](https://abuyfile.com/ru/market/cotonti/plugs/cot-plug-db-view-structure)
+  
+[**Официальная страница плагина в маркетплейсе:**](https://abuyfile.com/ru/market/cotonti/plugs/cot-plug-db-view-structure)
 
 ---
 
