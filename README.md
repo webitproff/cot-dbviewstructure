@@ -19,6 +19,10 @@
 
 ---
 
+**link to the combined export file that was imported into [Google Docs](https://docs.google.com/spreadsheets/d/1E32VLFimtXsvN1W0CpAYCtqUzc392T6jM4QL351Co58/edit?usp=sharing)**
+
+---
+
 ## Introduction
 
 DB Structure Viewer is an administrative plugin for CMF Cotonti Siena (version 0.9.26 and above) that lets you browse the database structure, export tables in several formats, and perform **combined data export from multiple related tables** into a single CSV file with flexible JOIN settings and image aggregation.
@@ -243,6 +247,10 @@ ___
 <img width="1200" height="800" alt="combined data export from multiple related tables" src="https://github.com/user-attachments/assets/5615d8b7-587a-4f20-841a-7efb4841ed0f" />
   
 [**Официальная страница плагина в маркетплейсе:**](https://abuyfile.com/ru/market/cotonti/plugs/cot-plug-db-view-structure)
+
+---
+
+**ссылка на файл комбинированного экспорта, который был импортирован в [Google-таблицы](https://docs.google.com/spreadsheets/d/1E32VLFimtXsvN1W0CpAYCtqUzc392T6jM4QL351Co58/edit?usp=sharing)**
 
 ---
 
