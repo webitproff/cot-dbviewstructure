@@ -3,19 +3,15 @@
 [BEGIN_COT_EXT]
 Code=dbviewstructure
 Name=DB Structure Viewer
-Category=tools
 Description=Просмотр структуры таблиц БД и экспорт в JSON, SQL, CSV, PHP. Поддержка выборочного экспорта, логирования, фильтрации.
-Version=2.0.0
-Date=2025-11-01
+Version=3.0.0
+Date=July 1Th, 2026
 Author=webitproff https://github.com/webitproff/
-Copyright=Copyright (c) webitproff 2025 https://github.com/webitproff/cot-dbviewstructure
-SQL=dbviewstructure.install.sql
-UninstallSQL=dbviewstructure.uninstall.sql
+Copyright=Copyright (c) webitproff 2026 https://github.com/webitproff/cot-dbviewstructure
 Auth_guests=R
 Lock_guests=12345A
 Auth_members=RW
 Lock_members=12345A
-Hooks=tools
 [END_COT_EXT]
 
 [BEGIN_COT_EXT_CONFIG]
@@ -30,13 +26,17 @@ pack_to_zip=05:radio:0:1:
 defined('COT_CODE') or die('Wrong URL.');
 
 /**
- * DB Structure Viewer plugin for CMF Cotonti Siena v.0.9.26, PHP v.8.4+, MySQL v.8.0
- * Filename: dbviewstructure.setup.php
+ * DB Structure Viewer plugin for CMF Cotonti v.1+, PHP v.8.4+, MySQL v.8.0
+ * Filename: plugins/dbviewstructure/dbviewstructure.setup.php
  * Purpose: Registers metadata and configuration for the DB Structure Viewer plugin in the Cotonti admin panel.
- * Date: 2025-11-01
+ * Date: 01 July 2026 
+ * 
+ * Source: https://github.com/webitproff/cot-dbviewstructure
+ * Page in Cotonti Marketplace: https://abuyfile.com/ru/market/cotonti/plugs/cot-plug-db-view-structure
+ * 
  * @package dbviewstructure
- * @version 2.0.0
+ * @version 3.0.0
  * @author webitproff
- * @copyright Copyright (c) webitproff 2025 https://github.com/webitproff/cot-dbviewstructure
+ * @copyright Copyright (c) webitproff 2026 https://github.com/webitproff
  * @license BSD
  */
